@@ -56,7 +56,8 @@ defmodule LiveTrack.MixProject do
       {:bandit, "~> 1.2"},
       {:redix, "~> 1.2"},
       {:cors_plug, "~> 2.0"},
-      {:plug_cowboy, "~> 2.5"}  # Added to ensure HTTP server is included
+      {:plug_cowboy, "~> 2.5"} ,
+      {:hackney, "~> 1.9"}# Added to ensure HTTP server is included
     ]
   end
 
